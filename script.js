@@ -226,13 +226,13 @@
       var ics = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//Devendra Priti Wedding//EN",
+        "PRODID:-//Sachin Deepti Wedding//EN",
         "BEGIN:VEVENT",
-        "UID:" + Date.now() + "@devendra-priti-wedding",
+        "UID:" + Date.now() + "@Sachin-Deepti-wedding",
         "DTSTAMP:20261101T000000Z",
         "DTSTART:20261126T123000Z",
         "DTEND:20261127T160000Z",
-        "SUMMARY:Devendra & Priti's Wedding",
+        "SUMMARY:Sachin & Deepti's Wedding",
         "DESCRIPTION:Baraat departs 19B\\, Ratanpur at 6:00 PM\\, proceeding to R.J. Garden for the wedding ceremony.",
         "LOCATION:R.J. Garden\\, Maksooda Bad\\, Panki\\, Kanpur - 208020",
         "END:VEVENT",
@@ -243,7 +243,7 @@
       var url = URL.createObjectURL(blob);
       var a = document.createElement("a");
       a.href = url;
-      a.download = "Devendra-Priti-Wedding.ics";
+      a.download = "Sachin-Deepti-Wedding.ics";
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
