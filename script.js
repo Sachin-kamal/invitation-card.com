@@ -226,13 +226,13 @@
       var ics = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//Sachin Neha Wedding//EN",
+        "PRODID:-//Sachin Neha(Deepti) Wedding//EN",
         "BEGIN:VEVENT",
-        "UID:" + Date.now() + "@Sachin-Neha-wedding",
+        "UID:" + Date.now() + "@Sachin-Neha(Deepti)-wedding",
         "DTSTAMP:20261101T000000Z",
         "DTSTART:20261211T123000Z",
         "DTEND:20261211T160000Z",
-        "SUMMARY:Sachin & Neha's Wedding",
+        "SUMMARY:Sachin & Neha (Deepti)'s Wedding",
         "DESCRIPTION:Baraat departs 19B\\, Ratanpur at 6:00 PM\\, proceeding to R.J. Garden for the wedding ceremony.",
         "LOCATION:R.J. Garden\\, Maksooda Bad\\, Panki\\, Kanpur - 208020",
         "END:VEVENT",
@@ -243,7 +243,7 @@
       var url = URL.createObjectURL(blob);
       var a = document.createElement("a");
       a.href = url;
-      a.download = "Sachin-Neha-Wedding.ics";
+      a.download = "Sachin-Neha(Deepti)-Wedding.ics";
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);

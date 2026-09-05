@@ -1,5 +1,5 @@
 /* =============================================================
-   SACHIN & Neha — WEDDING INVITATION
+   SACHIN & DEEPTI — WEDDING INVITATION
    Palette: wine #6E1E2B / deep wine #4A121C / gold #C9A24B
             blush #F6DEE3 / ivory #FBF4EC / leaf #33503F
    Type: Marcellus (display) + Cormorant Garamond (accent italics)
@@ -213,7 +213,7 @@ sup{ font-size:0.5em; top:-0.6em; }
   margin: .25rem 0 1.6rem;
   letter-spacing:.06em;
 }
-.intro__names{
+/* .intro__names{
   font-family: var(--display);
   font-size: clamp(2.1rem, 6vw, 3.4rem);
   display:flex;
@@ -222,7 +222,21 @@ sup{ font-size:0.5em; top:-0.6em; }
   justify-content:center;
   flex-wrap:wrap;
   margin-bottom: 2.2rem;
+} */
+ .intro__names {
+    font-family: var(--display);
+    font-size: clamp(2.1rem, 6vw, 3.4rem);
+    display: flex;
+    font-style: italic;
+    gap: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2.2rem;
+    flex-direction: column;
+    align-content: center;
 }
+
 .intro__amp{
   font-family: var(--accent-font);
   font-style:italic;
