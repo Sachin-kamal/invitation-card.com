@@ -213,16 +213,7 @@ sup{ font-size:0.5em; top:-0.6em; }
   margin: .25rem 0 1.6rem;
   letter-spacing:.06em;
 }
-/* .intro__names{
-  font-family: var(--display);
-  font-size: clamp(2.1rem, 6vw, 3.4rem);
-  display:flex;
-  gap: 0.6rem;
-  align-items:baseline;
-  justify-content:center;
-  flex-wrap:wrap;
-  margin-bottom: 2.2rem;
-} */
+
  .intro__names {
     font-family: var(--display);
     font-size: clamp(2.1rem, 6vw, 3.4rem);
