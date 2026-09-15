@@ -215,8 +215,8 @@ sup{ font-size:0.5em; top:-0.6em; }
 }
 
  .intro__names {
-    font-family: var(--display);
-    font-size: clamp(2.1rem, 4vw, 7.4rem);
+    font-family: var(--display); 
+    font-size: clamp(2.6rem, 4vw, 7.2rem);
     display: flex;
     font-style: italic;
     gap: 0.6rem;
